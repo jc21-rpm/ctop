@@ -9,7 +9,6 @@ Summary:        Top-like interface for Docker container metrics
 Group:          Applications/System
 License:        MIT
 URL:            https://ctop.sh
-Source0:        https://github.com/%{gh_user}/%{name}/archive/v%{version}.tar.gz
 BuildRequires:  git golang
 
 %description
