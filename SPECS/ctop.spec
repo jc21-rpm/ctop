@@ -3,7 +3,7 @@
 %global gh_user bcicen
 
 Name:           ctop
-Version:        0.7.6
+Version:        0.7.7
 Release:        1%{?dist}
 Summary:        Top-like interface for Docker container metrics
 Group:          Applications/System
@@ -31,6 +31,9 @@ install -Dm0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Wed Mar 23 2022 Jamie Curnow <jc@jc21.com> 0.7.7-1
+- v0.7.7
+
 * Mon Jun 14 2021 Jamie Curnow <jc@jc21.com> 0.7.6-1
 - v0.7.6
 
