@@ -4,7 +4,7 @@
 
 Name:           ctop
 Version:        0.7.7
-Release:        1
+Release:        1%{?dist}
 Summary:        Top-like interface for Docker container metrics
 Group:          Applications/System
 License:        MIT
